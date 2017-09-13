@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/lambo"
+        android:scaleType="center"
+        />
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/lam"
+        />
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:src="@drawable/end"
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:id="@+id/cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACT US AT : 9465163034,
+        rsdm34@gmail.com"
+        android:textColor="#000000"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:id="@+id/cont1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADDRESS : lamborghini, New Delhi"
+        android:textColor="#000000"
+        android:layout_below="@id/cont"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:id="@+id/cont2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESCRIPTION : Best Automobile"
+        android:textColor="#000000"
+        android:layout_below="@id/cont1"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WORKING HOURS : 9 A.M-8 P.M"
+        android:textColor="#000000"
+        android:layout_below="@id/cont2"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        />
+
+
+
+
+
+
+</RelativeLayout>
